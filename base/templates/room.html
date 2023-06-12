@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+{% block title %}
+     <title>room</title>       
+{% endblock title %}
+
+
+{% block content %}
+<strong>@{{room.host.username}}</strong>
+<h1>{{room.name}}</h1>
+<h6>{{room.topic.name}}</h6>
+{% endblock content %}
